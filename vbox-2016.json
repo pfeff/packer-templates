@@ -28,6 +28,7 @@
   "provisioners": [
     {
       "type": "chef-solo",
+      "version": "12",
       "cookbook_paths": ["cookbooks", "vendor/cookbooks"],
       "guest_os_type": "windows",
       "run_list": [
@@ -91,7 +92,7 @@
   "variables": {
     "guest_additions_mode": "attach",
     "headless": "true",
-    "iso_checksum": "18a4f00a675b0338f3c7c93c4f131beb",
-    "iso_url": "http://care.dlservice.microsoft.com/dl/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO"
+    "iso_url": "https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO",
+    "iso_checksum": "70721288bbcdfe3239d8f8c0fae55f1f"
   }
 }
